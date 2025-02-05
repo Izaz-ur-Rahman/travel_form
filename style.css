@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box  ;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Default weight */
+  font-style: normal;
+
+}
+
+
+
+.container{
+    max-width: 80%;
+    background-color: rgb(212, 193, 231);
+    padding: 34px;
+    margin: auto;
+}
+.container p, h1{
+  text-align: center;
+}
+form{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+input, textarea{
+    width: 80%;
+    font-size: 16px;
+    padding:4px;
+    margin:10px auto;
+    border:1px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+.btn{
+    background-color: purple;
+    padding: 10px;
+    color: white;
+    border:2px solid white;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: blueviolet;
+}
+
+.submit_msg{
+    color: green;
+    font-size: 25px;
+    
+}
